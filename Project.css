@@ -74,22 +74,21 @@ h6{
 
   /*Nav-bar*/
 
- .logo{
-     padding-left: 2%;
-     font-size: 2.4rem;
-    size: 3rem;
- }
 
- .bgcolor{
-     background-color: #fec89a;
- }
+.bgcolor{
+    background-color:burlywood ;
 
- .right{
-     text-align: right;
- }
+}
 
+.logo{
+    color: #fff;
+    line-height: 80px;
+    padding: 0 80px;
+ font-size: 2rem;
+ padding-right: 20px;
 
- 
+}
+
 
 /* Nav-Bar Ending*/
 
@@ -208,8 +207,14 @@ margin-bottom: 10%;
 }
 
 @media( max-width: 1020px){
-    
   
+    .logo{
+        font-size: 1.5rem;
+        padding-right: 20px;
+       }
+
+
+       
     
     .Homepage{
      padding :40% 0  ;
