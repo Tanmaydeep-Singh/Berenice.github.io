@@ -1,0 +1,222 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #F3F0D7;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: moccasin;
+    border-radius: 3%;
+    color: black;
+}
+
+a{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    
+}
+h4{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    padding: 5%;
+}
+h6{
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+/*PreLoader*/
+#PreLoader{
+    text-align: center;
+    background-color: burlywood; 
+    height: 100vh;
+    width: 100%;
+    background-repeat: none;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.PreLoader-text {
+    
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 0.75;
+    margin: 10px 0;
+    font-size: 7vw;
+    font-weight: bold;
+  }
+  
+
+  /*Nav-bar*/
+
+ .logo{
+     padding-left: 2%;
+     font-size: 2.4rem;
+    size: 3rem;
+ }
+
+ .bgcolor{
+     background-color: #fec89a;
+ }
+
+ .right{
+     text-align: right;
+ }
+
+
+ 
+
+/* Nav-Bar Ending*/
+
+p{
+    font-size: 100%;
+    text-align: center;
+    padding: 21% 7%;
+}
+
+.Homepage{
+    background-image:url("BG1.jpg");
+    border-radius: 2%;
+    padding: 10% 15%;
+    margin: 5%;
+}
+.Main-heading{
+    
+    font-size: 10vw;
+}
+
+#About{
+    padding: 3% 0;
+}
+
+#Gallery{
+    padding: 3% 0;
+}
+/*Menu*/
+#Menu{
+    background-color:blanchedalmond;
+    padding: 7% 0;
+    text-align: center;
+    align-items: center;
+}
+.btn{
+    color: #fff;
+}
+.MenuCardText{
+    
+    background-color: none ;
+    font-size: 3.75rem;
+    font-family: 'Corinthia', cursive;
+    padding: 0 ;
+}
+.MenuCard{
+   margin: 0;
+    padding: 0%;
+    height: 20vh;
+    margin: 0% 0;
+    width: 100%;
+    background-color: #fec89a;
+    display: block;
+}
+.MenuCard:hover{
+    background-color:antiquewhite;
+    transition-duration: 500ms;
+}
+
+.Card{
+    background-color: wheat;
+}
+
+
+
+
+/* Carousel */
+.carousel-inner {
+    text-align: center;
+padding: 10% 15%;
+margin-bottom: 10%;
+}
+
+.cbtn{
+    color:black;
+    font-weight: bold;
+}
+
+.carousel-img {
+    width: 75%;
+    max-height: 275px;
+    min-width: 196px;
+    height: 40%;
+    
+   border-radius: 5%;
+    z-index: 10%;
+}
+
+
+.icons{
+    font-size: 100%;
+    color: black;
+    text-align: center;
+}
+
+.fab{
+    margin: 0 5px;
+    
+}
+
+.ContactInformation{
+    font-size: 1rem;
+    padding-left: 8%;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+
+
+/*Media settings*/
+
+@media( max-width: 952px ){
+    lable.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+}
+
+@media( max-width: 1020px){
+    
+  
+    
+    .Homepage{
+     padding :40% 0  ;
+     margin: 0;
+     background-image: url("img/one.JPG");
+     background-size: 100%;
+     border-radius: 0%;
+    }
+    
+}
