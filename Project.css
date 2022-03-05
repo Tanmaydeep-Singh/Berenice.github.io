@@ -25,12 +25,9 @@ a{
     color: black;
 }
 
-h1{
+h1,h4{
     text-align: center;
     
-}
-h4{
-    text-align: center;
 }
 
 h3{
@@ -76,9 +73,12 @@ h6{
 
 
 .bgcolor{
+    z-index: 1;
     background-color:burlywood ;
 
 }
+.button{
+margin-right: 4rem;}
 
 .logo{
     color: #fff;
